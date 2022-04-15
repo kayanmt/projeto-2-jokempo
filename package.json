@@ -1,0 +1,22 @@
+{
+  "name": "projeto-2-jokempo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayanmt/projeto-2-jokempo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayanmt/projeto-2-jokempo/issues"
+  },
+  "homepage": "https://github.com/kayanmt/projeto-2-jokempo#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
