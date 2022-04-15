@@ -5,12 +5,12 @@ while (t==="S"){
 let c=0;
 let p=0;
 let e =0;
-let j = +prompt("Quantas rodadas voce quer jogar");
+let j = +prompt("Quantas rodadas voce quer jogar: ");
 for(let i=1;i<=j;i++){
 
-    let u = +prompt ("Digite 1 para pedra, 2 para papel ou 3 para tesoura");
+    let u = +prompt ("Digite 1 para pedra, 2 para papel ou 3 para tesoura: ");
     while (u!=1&&u!=2&&u!=3){
-    u = +prompt ("Digite 1 para pedra, 2 para papel ou 3 para tesoura");
+    u = +prompt ("Digite 1 para pedra, 2 para papel ou 3 para tesoura: ");
 }
 
 let r = Math.random()*2;
@@ -57,9 +57,9 @@ else if (c===p){
 // O '\n' usado no prompt logo a baixo causava a execucao do while, antes que se declarasse a opcao desejada 
 //por isso removi os '\n' dessa parte.
 
-t = prompt("Deseja jogar novamente? Digite 's' para jogar novamente e 'n' para sair do jogo ").toUpperCase();
+t = prompt("Deseja jogar novamente? Digite 's' para jogar novamente e 'n' para sair do jogo: ").toUpperCase();
 while (t!="S"&&t!="N"){
-    t= prompt("Digite 's' para jogar novamente e 'n' para sair do jogo").toUpperCase();
+    t= prompt("Digite 's' para jogar novamente e 'n' para sair do jogo: ").toUpperCase();
 }
 }
 console.log("Voce encerrou o programa");
